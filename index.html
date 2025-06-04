@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruhpolding Tourismus</title>
+    <link rel="icon" href="assets/Images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link" data-lang-key="skipToMain">
+        Zum Hauptinhalt springen
+    </a>
+    
+    <header id="header" class="site-header">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/Images/logo.avif" alt="Ruhpolding Tourismus Logo" data-lang-alt-key="altLogo" class="site-logo">
+                    </a>
+                </div>
+                <nav class="desktop-nav">
+                    <a href="Culture.html" class="nav-link" data-lang-key="navCulture">Kultur</a>
+                    <a href="Wellness.html" class="nav-link" data-lang-key="navWellness">Wellness & Gesundheit</a>
+                    <a href="Walks.html" class="nav-link" data-lang-key="navWalks">Leichte Wanderungen</a>
+                </nav>
+                <div class="header-controls">
+                    <div class="size-switcher">
+                        <button id="increase-text" aria-label="Textgröße erhöhen" title="Textgröße erhöhen" class="text-size-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="control-button-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4M18 12h2m-4-4V6m0 12v2M6 12H4m4 4v2m0-12V6" /></svg> A+
+                        </button>
+                        <button id="decrease-text" aria-label="Textgröße verringern" title="Textgröße verringern" class="text-size-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="control-button-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4M18 12h2m-4-4V6m0 12v2M6 12H4m4 4v2m0-12V6" /></svg> A-
+                        </button>
+                    </div>
+                    <button id="language-switch" aria-label="Sprache wechseln" title="Sprache wechseln" class="lang-switch-button">
+                        EN
+                    </button>
+                </div>
+                <div class="mobile-menu-toggle-container">
+                    <button id="language-switch-mobile" aria-label="Sprache wechseln" title="Sprache wechseln" class="lang-switch-button-mobile">
+                        EN
+                    </button>
+                    <button id="mobile-menu-button" type="button" class="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only" data-lang-key="openMainMenu">Hauptmenü öffnen</span>
+                        <svg class="mobile-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-nav hidden">
+            <div class="mobile-nav-content">
+                <a href="Culture.html" class="nav-link" data-lang-key="navMobileCulture">Kultur</a>
+                <a href="Wellness.html" class="nav-link" data-lang-key="navMobileWellness">Wellness & Gesundheit</a>
+                <a href="Walks.html" class="nav-link" data-lang-key="navMobileWalks">Wanderungen</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content-container">
+                <h1 class="animate-fadeIn" data-lang-key="heroTitle">Ruhpolding: Alpine Schönheit, Sanftes Tempo</h1>
+                <a href="https://maps.app.goo.gl/1Qs5ptMtG42vG5oFA" class="btn btn-primary hero-cta animate-fadeInUp delay-200" data-lang-key="heroCta">
+                    Ihr Weg nach Ruhpolding
+                </a>
+            </div>
+        </section>
+        </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a href="#header" class="footer-brand" data-lang-key="footerBrandName">Ruhpolding Tourismus</a>
+            <p class="footer-tagline" data-lang-key="footerTagline">Ihr Partner für unvergessliche Urlaubsmomente in den bayerischen Alpen.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook" data-lang-aria-label-key="ariaFacebook" class="social-link">
+                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="#" aria-label="Instagram" data-lang-aria-label-key="ariaInstagram" class="social-link">
+                     <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2.014a.828.828 0 01.57 0 10.016 10.016 0 014.295 1.136.828.828 0 01.34.18c1.056.68 1.941 1.565 2.62 2.621a.828.828 0 01.181.341 10.016 10.016 0 011.135 4.295.828.828 0 010 .57 10.016 10.016 0 01-1.135 4.295.828.828 0 01-.18.34c-.68 1.056-1.565 1.941-2.621 2.621a.828.828 0 01-.34.181 10.016 10.016 0 01-4.296 1.135.828.828 0 01-.57 0 10.016 10.016 0 01-4.295-1.135.828.828 0 01-.34-.18C6.02 19.984 5.135 19.099 4.456 18.043a.828.828 0 01-.181-.34A10.016 10.016 0 013.14 13.408a.828.828 0 010-.57 10.016 10.016 0 011.135-4.295.828.828 0 01.18-.34C5.136 7.144 6.02 6.259 7.076 5.58a.828.828 0 01.34-.181A10.016 10.016 0 0111.71 3.14a.828.828 0 01.605-1.126zM12 15.999a4 4 0 100-8 4 4 0 000 8zm0-1.143a2.857 2.857 0 110-5.714 2.857 2.857 0 010 5.714zM17.81 7.332a1.143 1.143 0 10-2.286 0 1.143 1.143 0 002.286 0z" clip-rule="evenodd" /></svg>
+                </a>
+                 <a href="#" aria-label="Twitter" data-lang-aria-label-key="ariaTwitter" class="social-link">
+                    <svg class="social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                </a>
+            </div>
+            <nav class="footer-nav">
+                <a href="#" class="footer-nav-link" data-lang-key="footerImprint">Impressum</a>
+                <a href="#" class="footer-nav-link" data-lang-key="footerPrivacy">Datenschutz</a>
+                <a href="#" class="footer-nav-link" data-lang-key="footerAccessibility">Barrierefreiheitserklärung</a>
+                <a href="#" class="footer-nav-link" data-lang-key="footerContact">Kontakt</a>
+            </nav>
+            <p class="copyright-text" data-lang-key="footerCopyright">© 2025 Ruhpolding Tourismus. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
