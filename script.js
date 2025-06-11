@@ -17,6 +17,19 @@ const translations = {
     heroTitle: { de: "Ruhpolding: Alpine Schönheit, Sanftes Tempo", en: "Ruhpolding: Alpine Beauty, Gentle Pace" },
     heroCta: { de: "Ihr Weg nach Ruhpolding", en: "Your way to Ruhpolding" },
 
+    // Activities Section
+    activitiesSectionTitle: { de: "Aktivitäten nach Zielgruppe", en: "Activities by target group" },
+    activitiesIntro: { de: "Ob für Familien, Aktive oder Ruhesuchende – hier finden Sie passende Tipps für jede Jahreszeit.", en: "Whether for families, active travellers or those seeking relaxation – here you will find tips for every season." },
+    summerActivitiesTitle: { de: "Sommer", en: "Summer" },
+    winterActivitiesTitle: { de: "Winter", en: "Winter" },
+    allYearActivitiesTitle: { de: "Ganzjährig", en: "All year round" },
+    summerItem1: { de: "Familien: Erlebnispark und kinderfreundliche Wanderwege", en: "Families: adventure park and child-friendly hiking trails" },
+    summerItem2: { de: "Aktive: Mountainbike-Strecken und Klettertouren", en: "Active guests: mountain bike trails and climbing tours" },
+    winterItem1: { de: "Familien: Rodelbahnen und Schneeschuhwanderungen", en: "Families: toboggan runs and snowshoe hikes" },
+    winterItem2: { de: "Sportbegeisterte: Langlauf und Biathlon-Erlebniszentrum", en: "Sport enthusiasts: cross-country skiing and biathlon center" },
+    allYearItem1: { de: "Erholungssuchende: Wellnessangebote und Thermen", en: "Relaxation seekers: wellness facilities and thermal baths" },
+    allYearItem2: { de: "Entdecker: Geführte Ortsrundgänge und Museen", en: "Explorers: guided village tours and museums" },
+
     // Placeholder for Culture Page
     culturePagePlaceholder: { de: "Inhalte für die Kultur-Seite werden hier in Kürze folgen.", en: "Content for the culture page will follow here shortly." },
 
